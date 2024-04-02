@@ -1,0 +1,11 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family:'Source Sans Pro';
+    color: #444950;
+    background-color: #D4CCCA;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+}

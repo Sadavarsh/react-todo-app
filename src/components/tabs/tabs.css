@@ -1,0 +1,41 @@
+.tabs_container {
+  width: 100%;
+  overflow-x: auto;
+  margin-top: 10px;
+}
+
+.tabs_list {
+  display: flex;
+  gap: 5px;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.tabs_list li {
+  flex: 1;
+  min-width: 100px;
+  height: 28px;
+  color: white;
+  line-height: 28px;
+  padding: 10px 5px;
+  border: 1px solid #dae0e7;
+  background-color: #009688;
+  border-radius: 8px 8px 0px 0px;
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.tabs_list li:hover,
+.tabs_list li.active {
+  color: #009688;
+  background: #fff;
+  border-bottom: none;
+}
+
+@media screen and (max-width: 768px) {
+  .tabs_list li {
+    min-width: auto;
+  }
+}
